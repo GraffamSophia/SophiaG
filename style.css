@@ -35,9 +35,8 @@ body {
 }
 
 .heroImage img {
-    border-radius: 6rem;
-    box-shadow: 10px 10px #000;
-    width: 100%;
+    border-radius: 1rem;
+    width: 85%;
     height: auto;
 }
 
@@ -165,6 +164,11 @@ footer {
     margin: 0;
     height: 80vh;
 }
+
+.heroText {
+    margin: 4rem;
+}
+
 
 @media (min-width: 800px) {
     .hero {
