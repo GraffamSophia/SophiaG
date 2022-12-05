@@ -170,6 +170,28 @@ footer {
 }
 
 
+.me { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.myText {
+    display: flex;
+    justify-content: center;
+}
+
+.myPic img {
+    width: 100%;
+    height:auto;
+}
+
+.myPic {
+    justify-content: center;
+}
+
+
 @media (min-width: 800px) {
     .hero {
         flex-direction: row;
@@ -199,5 +221,9 @@ footer {
     
     .projectCard { 
         max-width: 20%;
+    }
+    
+    .myPic {
+        max-width: 40%;
     }
 }
