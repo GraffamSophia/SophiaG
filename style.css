@@ -175,6 +175,11 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
+    border-top: 5px solid #9277AC;
+    border-bottom: 5px solid #9277AC;
+    border-right: 5px solid #9277AC;
+    border-left: 5px solid #9277AC;
+    margin: 1rem;
 }
 
 .myText {
@@ -182,13 +187,24 @@ footer {
     justify-content: center;
 }
 
-.myPic img {
+.mySchool img {
     width: 100%;
     height:auto;
 }
 
-.myPic {
-    justify-content: center;
+.myDeca img {
+    width: 100%;
+    height:auto;
+}
+
+.myDogs img {
+    width: 100%;
+    height:auto;
+}
+
+.myLittle img {
+    width: 100%;
+    height:auto;
 }
 
 
@@ -223,7 +239,35 @@ footer {
         max-width: 20%;
     }
     
-    .myPic {
-        max-width: 40%;
+    .mySchool {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+    
+    .myDeca {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+    
+    .myDogs {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+    
+    .myLittle {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
     }
 }
